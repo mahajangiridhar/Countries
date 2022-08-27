@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    background-color: #ccc;
+    padding: 40px 0;
+}
+.header p{
+    color: #000;
+    font-weight: bold;
+}
+.heading{
+    color: orange;
+    font-weight: bold;
+}
+.searchBarSection{
+    position: relative;
+}
+.searchBar{
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}
+.group-btn{
+    position: absolute;
+    left: 35%;
+    top: 55%;
+}
+.btn-name, .btn-capital, .btn-population{
+    margin: 0 15px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: orange;
+}
+.countriesList{
+    background-color: #ccc;
+    margin-top: 300px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+.mb-100{
+    margin-bottom: 300px;
+}
+.card{
+    height: 400px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.country-info{
+    object-fit: cover;
+}
+.country-info h4{
+    color: orange;
+}
+.country-info img{
+    width: 100%;
+    height: 100px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}

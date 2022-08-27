@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+	<header class="header">
+        <div class="container">
+            <h1 class="heading">World Countries Data</h1>
+            <p>Currently, We Have 250 Countries Data</p>
+        </div>
+    </header>
+    <section class="searchBarSection">
+        <div class="container">
+            <div class="form-group">
+                <input type="text" name="text" id="searchBar" class="form-control searchBar" placeholder="Search Countries By Name">
+            </div>
+        </div>
+    </section>
+    <section class="allbtn">
+         <div class="group-btn">
+            <button class="btn btn-name" id="btn-name">Name</button>
+            <button class="btn btn-capital" id="btn-capital">Capital</button>
+            <button class="btn btn-population" id="btn-population">Population</button>
+        </div>
+    </section>
+    <main class="countriesList">
+        <div class="container">
+            <div class="row"  id="countriesUI">
+                
+            </div>
+        </div>
+    </main>
+   
+    <script src="./assets/js/demo.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
